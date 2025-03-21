@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lqjLatntsIomyGSuyqNSaAXtGBzzO6HOXH6PhQgeeQg=",
+  "Source": "MockFlightsAPI",
+  "BasePath": "_content/MockFlightsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
