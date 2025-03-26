@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tqw3dT5jhpc=",
+  "dgSpecHash": "s0ZYSp32DR4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\josep\\source\\repos\\MockFlightsAPI\\MockFlightsAPI.csproj",
+  "projectFilePath": "C:\\Users\\josep\\Source\\Repos\\MockFlightsAPI\\MockFlightsAPI\\MockFlightsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.3\\microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
     "C:\\Users\\josep\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
