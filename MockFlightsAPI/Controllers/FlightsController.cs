@@ -11,7 +11,37 @@ namespace MockFlightsAPI.Controllers
     public class FlightsController : ControllerBase
     {
         private static readonly Random _random = new Random();
-        private static readonly List<string> Airports = new List<string> { "JFK", "LHR", "CDG", "FRA", "DXB", "HND", "ORD", "LAX", "SYD", "SIN" };
+        private static readonly List<string> Airports = new List<string>
+        {
+            "JFK",   // New York (John F. Kennedy),USA
+            "LAX",   // Los Angeles,USA
+            "ORD",   // Chicago O'Hare,USA
+            "LHR",   // London Heathrow, Storbritannien
+            "CDG",   // Paris Charles de Gaulle,Frankrig
+            "FRA",   // Frankfurt, Tyskland
+            "BER",   // Berlin Brandenburg, Tyskland
+            "CPH",   // København, Danmark
+            "AAR",   // Aarhus,Danmark
+            "BLL",   // Billund, Danmark 
+            "ARN",   // Stockholm Arlanda, Sverige
+            "OSL",   // Oslo Gardermoen, Norge
+            "AMS",   // Amsterdam Schiphol,Holland
+            "PMI",   // Palma de Mallorca, Spanien
+            "LPA",   // Las Palmas (Gran Canaria),Spanien
+            "HER",   // Heraklion (Kreta),  Grækenland
+            "CAI",   // Cairo, Egypten
+            "SSH",   // Sharm El Sheikh, Egypten
+            "HRG",   // Hurghada, Egypten
+            "BKK",   // Bangkok Suvarnabhumi, Thailand
+            "KUL",   // Kuala Lumpur,  Malaysia
+            "MLE",   // Malé International, Maldiverne
+            "SYD",   // Sydney Kingsford Smith, Australien
+            "CPT",   // Cape Town, Sydafrika
+            "HND",   // Tokyo Haneda, Japan
+            "SIN",   // Singapore Changi, Singapore
+            "GIG",   // Rio de Janeiro (Galeão), Brasilien
+        };
+
         private static readonly List<string> Airlines = new List<string> { "Delta", "British Airways", "Air France", "Lufthansa", "Emirates", "ANA", "United", "Qantas", "Singapore Airlines" };
 
         [HttpGet]
