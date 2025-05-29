@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("2f9470d4-a311-4a72-8b88-e9003141849f")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MockFlightsAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32351a7cc90d85939f2cc0f3484f61441e3690a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1ae08d63d4355fe225679cb334dfbcae209595d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MockFlightsAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MockFlightsAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
