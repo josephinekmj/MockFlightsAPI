@@ -59,6 +59,15 @@ namespace MockFlightsAPI.Controllers
             "SEA",   // Seattle-Tacoma, USA
             "IST",   // Istanbul Airport, Tyrkiet
             "DOH",   // Hamad International, Doha, Qatar
+            "LGA",   // New York LaGuardia, USA
+            "LGW",   // London Gatwick, Storbritannien
+            "ORY",   // Paris Orly, Frankrig
+            "NRT",   // Tokyo Narita, Japan
+            "EZE",   // Buenos Aires Ministro Pistarini, Argentina
+            "AEP",   // Buenos Aires Aeroparque Jorge Newbery, Argentina
+            "MEX",   // Mexico City International, Mexico
+            "HKG",   // Hong Kong International, Hongkong
+            "MDW",   // Chicago Midway International, USA
         };
 
         private static readonly List<string> Airlines = new List<string> { "Delta", "British Airways", "Air France", "Lufthansa", "Emirates", "ANA", "United", "Qantas", "Singapore Airlines" };
