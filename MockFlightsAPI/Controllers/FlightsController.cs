@@ -40,6 +40,25 @@ namespace MockFlightsAPI.Controllers
             "HND",   // Tokyo Haneda, Japan
             "SIN",   // Singapore Changi, Singapore
             "GIG",   // Rio de Janeiro (Galeão), Brasilien
+            "VCE",   // Venice Marco Polo, Italien
+            "FCO",   // Rome Fiumicino, Italien
+            "MXP",   // Milan Malpensa, Italien
+            "BCN",   // Barcelona El Prat, Spanien
+            "MAD",   // Madrid Barajas, Spanien
+            "DUB",   // Dublin, Irland
+            "ZRH",   // Zurich, Schweiz
+            "HEL",   // Helsinki, Finland
+            "DXB",   // Dubai International, Forenede Arabiske Emirater
+            "DEL",   // Indira Gandhi International, Delhi, Indien
+            "ICN",   // Incheon International, Sydkorea
+            "YYZ",   // Toronto Pearson, Canada
+            "GRU",   // São Paulo Guarulhos, Brasilien
+            "SFO",   // San Francisco, USA
+            "MIA",   // Miami International, USA
+            "ATL",   // Atlanta Hartsfield–Jackson, USA
+            "SEA",   // Seattle-Tacoma, USA
+            "IST",   // Istanbul Airport, Tyrkiet
+            "DOH",   // Hamad International, Doha, Qatar
         };
 
         private static readonly List<string> Airlines = new List<string> { "Delta", "British Airways", "Air France", "Lufthansa", "Emirates", "ANA", "United", "Qantas", "Singapore Airlines" };
