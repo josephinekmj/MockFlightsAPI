@@ -13,61 +13,61 @@ namespace MockFlightsAPI.Controllers
         private static readonly Random _random = new Random();
         private static readonly List<string> Airports = new List<string>
         {
-            "JFK",   // New York (John F. Kennedy),USA
-            "LAX",   // Los Angeles,USA
-            "ORD",   // Chicago O'Hare,USA
-            "LHR",   // London Heathrow, Storbritannien
-            "CDG",   // Paris Charles de Gaulle,Frankrig
-            "FRA",   // Frankfurt, Tyskland
-            "BER",   // Berlin Brandenburg, Tyskland
-            "CPH",   // København, Danmark
-            "AAR",   // Aarhus,Danmark
-            "BLL",   // Billund, Danmark 
-            "ARN",   // Stockholm Arlanda, Sverige
-            "OSL",   // Oslo Gardermoen, Norge
-            "AMS",   // Amsterdam Schiphol,Holland
-            "PMI",   // Palma de Mallorca, Spanien
-            "LPA",   // Las Palmas (Gran Canaria),Spanien
-            "HER",   // Heraklion (Kreta),  Grækenland
-            "CAI",   // Cairo, Egypten
-            "SSH",   // Sharm El Sheikh, Egypten
-            "HRG",   // Hurghada, Egypten
-            "BKK",   // Bangkok Suvarnabhumi, Thailand
-            "KUL",   // Kuala Lumpur,  Malaysia
-            "MLE",   // Malé International, Maldiverne
-            "SYD",   // Sydney Kingsford Smith, Australien
-            "CPT",   // Cape Town, Sydafrika
-            "HND",   // Tokyo Haneda, Japan
-            "SIN",   // Singapore Changi, Singapore
+           "AEP",   // Buenos Aires Aeroparque Jorge Newbery, Argentina
+            "EZE",   // Buenos Aires Ministro Pistarini, Argentina
             "GIG",   // Rio de Janeiro (Galeão), Brasilien
-            "VCE",   // Venice Marco Polo, Italien
+            "GRU",   // São Paulo Guarulhos, Brasilien
+            "YYZ",   // Toronto Pearson, Canada
+            "MEX",   // Mexico City International, Mexico
+            "CAI",   // Cairo, Egypten
+            "HRG",   // Hurghada, Egypten
+            "SSH",   // Sharm El Sheikh, Egypten
+            "CPH",   // København, Danmark
+            "AAR",   // Aarhus, Danmark
+            "BLL",   // Billund, Danmark 
+            "HEL",   // Helsinki, Finland
+            "CDG",   // Paris Charles de Gaulle, Frankrig
+            "ORY",   // Paris Orly, Frankrig
+            "HER",   // Heraklion (Kreta),  Grækenland
+            "AMS",   // Amsterdam Schiphol, Holland
+            "DUB",   // Dublin, Irland
             "FCO",   // Rome Fiumicino, Italien
             "MXP",   // Milan Malpensa, Italien
+            "VCE",   // Venice Marco Polo, Italien
+            "MLE",   // Malé International, Maldiverne
+            "OSL",   // Oslo Gardermoen, Norge
             "BCN",   // Barcelona El Prat, Spanien
+            "LPA",   // Las Palmas (Gran Canaria), Spanien
             "MAD",   // Madrid Barajas, Spanien
-            "DUB",   // Dublin, Irland
+            "PMI",   // Palma de Mallorca, Spanien
+            "ARN",   // Stockholm Arlanda, Sverige
             "ZRH",   // Zurich, Schweiz
-            "HEL",   // Helsinki, Finland
-            "DXB",   // Dubai International, Forenede Arabiske Emirater
-            "DEL",   // Indira Gandhi International, Delhi, Indien
-            "ICN",   // Incheon International, Sydkorea
-            "YYZ",   // Toronto Pearson, Canada
-            "GRU",   // São Paulo Guarulhos, Brasilien
-            "SFO",   // San Francisco, USA
-            "MIA",   // Miami International, USA
-            "ATL",   // Atlanta Hartsfield–Jackson, USA
-            "SEA",   // Seattle-Tacoma, USA
             "IST",   // Istanbul Airport, Tyrkiet
-            "DOH",   // Hamad International, Doha, Qatar
-            "LGA",   // New York LaGuardia, USA
             "LGW",   // London Gatwick, Storbritannien
-            "ORY",   // Paris Orly, Frankrig
-            "NRT",   // Tokyo Narita, Japan
-            "EZE",   // Buenos Aires Ministro Pistarini, Argentina
-            "AEP",   // Buenos Aires Aeroparque Jorge Newbery, Argentina
-            "MEX",   // Mexico City International, Mexico
+            "LHR",   // London Heathrow, Storbritannien
+            "BER",   // Berlin Brandenburg, Tyskland
+            "FRA",   // Frankfurt, Tyskland
+            "DEL",   // Indira Gandhi International, Delhi, Indien
             "HKG",   // Hong Kong International, Hongkong
+            "HND",   // Tokyo Haneda, Japan
+            "NRT",   // Tokyo Narita, Japan
+            "KUL",   // Kuala Lumpur,  Malaysia
+            "ICN",   // Incheon International, Sydkorea
+            "SIN",   // Singapore Changi, Singapore
+            "BKK",   // Bangkok Suvarnabhumi, Thailand
+            "DOH",   // Hamad International, Doha, Qatar
+            "DXB",   // Dubai International, Forenede Arabiske Emirater
+            "SYD",   // Sydney Kingsford Smith, Australien
+            "CPT",   // Cape Town, Sydafrika
+            "ATL",   // Atlanta Hartsfield–Jackson, USA
+            "JFK",   // New York (John F. Kennedy), USA
+            "LGA",   // New York LaGuardia, USA
+            "LAX",   // Los Angeles, USA
+            "MIA",   // Miami International, USA
             "MDW",   // Chicago Midway International, USA
+            "ORD",   // Chicago O'Hare, USA
+            "SEA",   // Seattle-Tacoma, USA
+            "SFO",   // San Francisco, USA
         };
 
         private static readonly List<string> Airlines = new List<string> { "Delta", "British Airways", "Air France", "Lufthansa", "Emirates", "ANA", "United", "Qantas", "Singapore Airlines" };
